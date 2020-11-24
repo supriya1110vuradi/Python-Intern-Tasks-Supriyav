@@ -1,6 +1,6 @@
 #Create a string and slice from 2nd value to last value
 a="my first task"
-print(a[3:])
+print(a[1:])
 
 
 print("Hello World!!")
