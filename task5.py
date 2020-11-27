@@ -23,7 +23,8 @@ my_fun(m, n)
 # by default the body temperature should be 98 degree
 
 
-def covid(tem=98): print("temperature of Sam is", tem)
+def covid(patient_name, body_temperature): print("details:"+patient_name+","+body_temperature)
 
 
-covid()
+covid("Dhoni", "98 degree")
+
